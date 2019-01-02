@@ -1,0 +1,24 @@
+{
+    "name": "auto1-oss/service-api-request",
+    "description": "Common interfaces and classes of API request",
+    "keywords": ["api", "request"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Sklabinskyi",
+            "email": "yaroslav.sklabinskyi@auto1.com"
+        },
+        {
+            "name": "Andrei Dantsiger",
+            "email": "andrei.dantsiger@auto1.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Auto1\\ServiceAPIRequest\\": "src/"
+        }
+    }
+}
